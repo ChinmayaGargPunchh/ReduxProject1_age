@@ -1,6 +1,6 @@
 //This allows us to create store
 import { createStore } from "redux";
 
-import { reducer } from "./reducer";
+import Reducer from "./Reducer";
 
-export default Store = createStore(reducer);
+export default Store = createStore(Reducer);
